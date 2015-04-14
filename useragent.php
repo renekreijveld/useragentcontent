@@ -2,7 +2,7 @@
 /**
  * @copyright   Copyright (c)2015 DSD business internet / gakijken.nl
  * @license     GNU GPLv3 <http://www.gnu.org/licenses/gpl.html> or later
- *              Based on the excellent work of Pieter-Jan de Vries, Open Source Design
+ *              Plugin code based on the excellent work of Pieter-Jan de Vries, Open Source Design.
  */
 
 defined( '_JEXEC' ) or die();
