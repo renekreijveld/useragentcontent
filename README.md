@@ -4,7 +4,7 @@ User Agent Detection Content plugin
 Functions
 ---------
 
-* This system plugin detects the user agent of your website visitor and can be used in Joomla articles to display content acoordingly.
+* This system plugin detects the user agent of your website visitor and can be used in Joomla articles to display content accordingly.
 
 * Possible tests on content:
 
