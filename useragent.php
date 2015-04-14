@@ -1,7 +1,7 @@
 <?php
 /**
- * @copyright	Copyright (c)2015 DSD business internet / gakijken.nl
- * @license		GNU GPLv3 <http://www.gnu.org/licenses/gpl.html> or later
+ * @copyright   Copyright (c)2015 DSD business internet / gakijken.nl
+ * @license     GNU GPLv3 <http://www.gnu.org/licenses/gpl.html> or later
  *              Based on the excellent work of Pieter-Jan de Vries, Open Source Design
  */
 
