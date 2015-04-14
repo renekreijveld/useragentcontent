@@ -20,4 +20,6 @@ Functions
 
    {!ifmobile} This shows everywhere except if browser is mobile {/ifmobile}
 
+* Use the file plg_content_useragentcontent.zip as an installable extension file for Joomla 2.5 and 3.x.
+
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
