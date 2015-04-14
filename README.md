@@ -22,4 +22,6 @@ Functions
 
 * Use the file plg_content_useragentcontent.zip as an installable extension file for Joomla 2.5 and 3.x.
 
+* This plugin is based on the excellent work of Pieter-Jan de Vries, Open Source Design.
+
 * This plugin uses the excellent Mobile_Detect library: https://github.com/serbanghita/Mobile-Detect
