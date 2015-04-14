@@ -12,8 +12,7 @@ jimport('joomla.plugin.plugin');
 class plgContentUseragent extends JPlugin
 {
 	/*
-	 * Any content between the tags will be rendered 
-	 * only if the visitors browser is a desktop
+	 * Test device and render content if proper device is detected.
 	 */
 	private function processDevice($text, $ualayout, $layout) {
 		// Search for this tag in the content
