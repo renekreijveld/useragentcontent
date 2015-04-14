@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>Content - User Agent Detection</name>
+	<author>Rene Kreijveld</author>
+	<creationDate>April 2015</creationDate>
+	<copyright>Copyright (C) 2015 dsd business internet. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>r.kreijveld@gakijken.nl</authorEmail>
+	<authorUrl>www.gakijken.nl</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[ 
+		<h1 style="margin-left:0;text-align:left;">User Agent Detection Content Plugin</h1>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">This plugin detects the user agent and can be used as a content plugin.<br>
+		Based on the user agent, the plugin detects if the site is running on a desktop pc, tablet or smartphone. It can also detect if the visitor is a spider bot (search engine).<br><br>
+		Possible tests: {ifdesktop}...{/ifdesktop}, {iftablet}...{/iftablet}, {ifmobile}...{/ifmobile}<br><br>
+		Example code::</p>
+		<pre style="font-size:13px;text-align:left">{ifdesktop} This only shows if browser is desktop {/ifdesktop}
+{!ifdesktop} This shows everywhere except if browser is desktop {/ifdesktop}
+{iftablet} This only shows if browser is tablet {/iftablet}
+{!iftablet} This shows everywhere except if browser is tablet {/iftablet}
+{ifmobile} This only shows if browser is mobile {/ifmobile}
+{!ifmobile} This shows everywhere except if browser is mobile {/ifmobile}</pre>
+		<p style="font-family:arial,helvetica,sans-serif;font-size:12px;text-align:left;">Written by <strong><a href="http://www.gakijken.nl" target="_blank">René Kreijveld</a></strong>.<br>
+		Makes use of <strong><a href="https://github.com/serbanghita/Mobile-Detect" target="_blank">mobiledetect</a></strong>, a lightweight PHP class for detecting mobile devices.</p>
+	]]></description>
+	<files>
+		<filename plugin="useragent">useragent.php</filename>
+		<filename>index.html</filename>
+		<filename>useragent.xml</filename>
+		<folder>lib</folder>
+	</files>
+</extension>
